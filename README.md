@@ -14,6 +14,7 @@ In this project, we will use Go Ethereum Tools to create our very own blockchain
 For installations, we shall use the application executable binary file using the following steps:  
   * Open your browser and navigate to the Go Ethereum Tools download page at https://geth.ethereum.org/downloads/
   * Scroll down to the "Stable Releases" section and proceed depending on your operating system to install "Geth & Tools 1.9.7".
+  * After downloading the tools archive, open your "Downloads" folder, decompress the archive in the location of your preference in your computer's hard drive, and rename the containing folder as Blockchain-Tools
 
 
 ## Set up custom Testnet Blockchain 
