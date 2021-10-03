@@ -12,8 +12,8 @@ Based on the operatign system, download the installer, open the file, and follow
 Go Ethereum is one of the three original implementations of the Ethereum protocol. It is written in Go, fully open-source and licensed under the GNU LGPL v3.  
 In this project, we will use Go Ethereum Tools to create our very own blockchain, from the genesis block to mining tokens and making transactions.
 For installations, we shall use the application executable binary file using the following steps:  
-1. Open your browser and navigate to the Go Ethereum Tools download page at https://geth.ethereum.org/downloads/
-2. Scroll down to the "Stable Releases" section and proceed depending on your operating system to install "Geth & Tools 1.9.7".
+  * Open your browser and navigate to the Go Ethereum Tools download page at https://geth.ethereum.org/downloads/
+  * Scroll down to the "Stable Releases" section and proceed depending on your operating system to install "Geth & Tools 1.9.7".
 
 
 ## Set up custom Testnet Blockchain 
