@@ -3,9 +3,9 @@ This project work covers steps to setup a Private Testnet Blockchain that can be
 
 ## Installations
 - MyCrypto Desktop App  
-: MyCrypto is a free, open-source, client-side interface that allows you to interact directly with the blockchain.
-- Go Ethereum Tools
-: Go Ethereum is one of the three original implementations of the Ethereum protocol. It is written in Go, fully open-source and licensed under the GNU LGPL v3.
+MyCrypto is a free, open-source, client-side interface that allows you to interact directly with the blockchain.
+- Go Ethereum Tools  
+Go Ethereum is one of the three original implementations of the Ethereum protocol. It is written in Go, fully open-source and licensed under the GNU LGPL v3.
 
 ## Set up custom Testnet Blockchain 
 
