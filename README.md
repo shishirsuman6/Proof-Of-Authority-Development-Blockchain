@@ -7,6 +7,18 @@ MyCrypto is a free, open-source, client-side interface that allows you to intera
 In this project, we will use MyCrypto Desktop App to manage ethereum wallets and make transactions in the blockchain.  
 To install MyCrypto Desktop App, please open your browser and navigate to the downloads page at https://download.mycrypto.com/.  
 Based on the operatign system, download the installer, open the file, and follow the installation wizard.
+> Wallet setup
+> * Open up the MyCrypto app.
+> * Click "Create New Wallet" on the left.
+> * Choose "Generate a wallet".
+> * Use the "Mnemonic Phrase" option. MyCrypto will generate a unique mnemonic phrase for you, write down this phrase in order and store it in a safe place. Do not share this phrase with anyone, treat it like your banking password.
+> * You will need to confirm the phrase by clicking your words in order
+> * Once you are done, you will see the steps you will need to unlock your account in the future.
+> * Unlock your wallet by going to "View & Send" and pick "Mnemonic Phrase."
+> * Type your mnemonic phrase, with spaces (you can click the eye to view it), then continue to choose an address.
+> * Once you pick an address to unlock, copy the address on the right hand side.
+
+
 
 - [Go Ethereum](https://geth.ethereum.org/) Tools  
 Go Ethereum is one of the three original implementations of the Ethereum protocol. It is written in Go, fully open-source and licensed under the GNU LGPL v3.  
