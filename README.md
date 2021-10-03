@@ -3,7 +3,7 @@ This project work covers steps to setup a Private Testnet Blockchain that can be
 
 ## Installations
 - MyCrypto Desktop App
--- MyCrypto is a free, open-source, client-side interface that allows you to interact directly with the blockchain.
+MyCrypto is a free, open-source, client-side interface that allows you to interact directly with the blockchain.
 - Go Ethereum Tools
 
 ## Set up custom Testnet Blockchain 
