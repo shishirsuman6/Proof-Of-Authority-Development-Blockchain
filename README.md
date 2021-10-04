@@ -31,9 +31,9 @@ For installations, we shall use the application executable binary file using the
 
 ## Set up custom Testnet Blockchain 
 
-- Created a new project directory for your new network.  
+- Created a new project directory for the new network.  
 
-    ![image](https://user-images.githubusercontent.com/51159089/135843115-6e348480-e737-41bb-840b-83d43df68551.png)
+
 
 
 - Create a "Screenshots" folder inside of the project directory.  
