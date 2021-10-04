@@ -31,10 +31,12 @@ For installations, we shall use the application executable binary file using the
 
 ## Set up custom Testnet Blockchain 
 
-Create a new project directory for your new network. Call it whatever you want!  
+- Created a new project directory for your new network.  
+
+    ![image](https://user-images.githubusercontent.com/51159089/135843115-6e348480-e737-41bb-840b-83d43df68551.png)
 
 
-Create a "Screenshots" folder inside of the project directory.  
+- Create a "Screenshots" folder inside of the project directory.  
 
 
 Create accounts for two (or more) nodes for the network with a separate datadir for each using geth.  
