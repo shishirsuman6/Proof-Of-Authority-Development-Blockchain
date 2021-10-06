@@ -120,7 +120,7 @@ You should now see both nodes producing new blocks, congratulations!
   * The URL is pointing to the default RPC port on your local machine. Use http://127.0.0.1:8545.
   * Once you save and use the network, double-check that it is selected and is connected.
 
-  ![change_network](Screenshots/change_network.PNG)
+  ![change_network](Screenshots/change_network.png)
 
 - Now that you are connected to your blockchain, you will need to load a keystore file you created and funded on the network.
   * If you are logged in to another wallet, you'll need to click Change Wallet on the top right, but make sure you are connected to your custom network.
