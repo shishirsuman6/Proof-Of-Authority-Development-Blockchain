@@ -32,6 +32,7 @@ For installations, we shall use the application executable binary file using the
 ## Set up custom Testnet Blockchain 
 
 - Created a new project directory for the new network.  
+
 ![Project Directory](Screenshots/Project_Directory.png)
 
 - Create accounts for two (or more) nodes for the network with a separate datadir for each using geth. 
@@ -41,6 +42,7 @@ For installations, we shall use the application executable binary file using the
   ./geth account new --datadir node1
   ./geth account new --datadir node2
   ```  
+  
   ![Network nodes created](Screenshots/Network_nodes_created.png)
 
 
@@ -51,6 +53,7 @@ For installations, we shall use the application executable binary file using the
   * Paste them again in the list of accounts to pre-fund. There are no block rewards in PoA, so you'll need to pre-fund.  
   * You can choose no for pre-funding the pre-compiled accounts (0x1 .. 0xff) with wei. This keeps the genesis cleaner.  
   * Complete the rest of the prompts to specify chain/Network ID  
+  
   ![Network_creation](Screenshots/Network_creation.png)
 
 
@@ -59,7 +62,9 @@ For installations, we shall use the application executable binary file using the
     * When you are back at the main menu, choose the "Manage existing genesis" option.  
     * Export genesis configurations. This will fail to create two of the files, but you only need networkname.json. 
     * You can delete the networkname-harmony.json file.  
+    
     ![export_genesis_configuration](Screenshots/export_genesis_configuration.png)  
+    
     ![genesis_configuration_in_folder](Screenshots/genesis_configuration_in_folder.png)
 
 
@@ -72,6 +77,7 @@ For installations, we shall use the application executable binary file using the
   `./geth init <yournetworkname>.json --datadir node1`
 
   You should see this success message:  
+  
   ![node_initialization](Screenshots/node_initialization.png)
 
   Run the same command for node2.
@@ -127,11 +133,17 @@ You should now see both nodes producing new blocks, congratulations!
 
   * Copy the pre-fund address into the "To Address" field, then fill in an arbitrary amount of ETH
   * Confirm the transaction by clicking "Send Transaction", and the "Send" button in the pop-up window.  
+  
   ![transaction_node2](Screenshots/transaction_node2.png)
+  
   * Click the Check TX Status when the green message pops up, confirm the logout.  
+  
   ![transaction_node2_mycrypto](Screenshots/transaction_node2_mycrypto.png)
+  
   * You should see the transaction go from Pending to Successful in around the same block time you set in the genesis.  
+  
    ![transaction_node2_mycrypto_1](Screenshots/transaction_node2_mycrypto_1.png)  
+   
    ![transaction_node2_mycrypto_2](Screenshots/transaction_node2_mycrypto_2.png)
 
   * You can click the Check TX Status button to update the status.
