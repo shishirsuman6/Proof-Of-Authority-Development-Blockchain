@@ -32,7 +32,7 @@ For installations, we shall use the application executable binary file using the
 ## Set up custom Testnet Blockchain 
 
 - Created a new project directory for the new network.  
-
+a
 ![Project Directory](Screenshots/Project_Directory.png)
 
 - Create accounts for two (or more) nodes for the network with a separate datadir for each using geth. 
