@@ -35,6 +35,8 @@ For installations, we shall use the application executable binary file using the
 
 ![Project Directory](Screenshots/Project_Directory.png)  
 
+  ![Project Directory](Screenshots/Project Directory.png)
+
 - Create accounts for two (or more) nodes for the network with a separate datadir for each using geth. 
 
   Open a terminal window, navigate to the Blockchain-Tools folder and type the following command:
