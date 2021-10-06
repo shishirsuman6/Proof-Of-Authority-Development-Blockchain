@@ -40,7 +40,7 @@ For installations, we shall use the application executable binary file using the
   ```
   ./geth account new --datadir node1
   ./geth account new --datadir node2
-  ``` 
+  ```  
   ![Network nodes created](Screenshots/Network_nodes_created.png)
 
 
