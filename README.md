@@ -33,9 +33,8 @@ For installations, we shall use the application executable binary file using the
 
 - Created a new project directory for the new network.  
 
-![Project Directory](Screenshots/Project_Directory.png)  
+![Project Directory](Screenshots/Project_Directory.PNG)  
 
-  ![Project Directory](Screenshots/Project Directory.png)
 
 - Create accounts for two (or more) nodes for the network with a separate datadir for each using geth. 
 
@@ -45,7 +44,7 @@ For installations, we shall use the application executable binary file using the
   ./geth account new --datadir node2
   ```  
   
-  ![Network nodes created](Screenshots/Network_nodes_created.png)
+  ![Network nodes created](Screenshots/Network_nodes_created.PNG)
 
 
 - Network Creation
@@ -56,7 +55,7 @@ For installations, we shall use the application executable binary file using the
   * You can choose no for pre-funding the pre-compiled accounts (0x1 .. 0xff) with wei. This keeps the genesis cleaner.  
   * Complete the rest of the prompts to specify chain/Network ID  
   
-  ![Network_creation](Screenshots/Network_creation.png)
+  ![Network_creation](Screenshots/Network_creation.PNG)
 
 
 - Export Genesis configuration
@@ -65,9 +64,9 @@ For installations, we shall use the application executable binary file using the
     * Export genesis configurations. This will fail to create two of the files, but you only need networkname.json. 
     * You can delete the networkname-harmony.json file.  
     
-    ![export_genesis_configuration](Screenshots/export_genesis_configuration.png)  
+    ![export_genesis_configuration](Screenshots/export_genesis_configuration.PNG)  
     
-    ![genesis_configuration_in_folder](Screenshots/genesis_configuration_in_folder.png)
+    ![genesis_configuration_in_folder](Screenshots/genesis_configuration_in_folder.PNG)
 
 
 
@@ -121,7 +120,7 @@ You should now see both nodes producing new blocks, congratulations!
   * The URL is pointing to the default RPC port on your local machine. Use http://127.0.0.1:8545.
   * Once you save and use the network, double-check that it is selected and is connected.
 
-  ![change_network](Screenshots/change_network.png)
+  ![change_network](Screenshots/change_network.PNG)
 
 - Now that you are connected to your blockchain, you will need to load a keystore file you created and funded on the network.
   * If you are logged in to another wallet, you'll need to click Change Wallet on the top right, but make sure you are connected to your custom network.
@@ -129,24 +128,24 @@ You should now see both nodes producing new blocks, congratulations!
   * Next, click on the "Keystore File" option to continue.
   * A new window will pop-up, choose the keystore file for Node1 from browse option and the wallet would be loaded.
 
-  ![mycrypto_node1](Screenshots/mycrypto_node1.png)
+  ![mycrypto_node1](Screenshots/mycrypto_node1.PNG)
 
 - Now we're going to send a transaction between Node 1 and Node 2 to test out the connection
 
   * Copy the pre-fund address into the "To Address" field, then fill in an arbitrary amount of ETH
   * Confirm the transaction by clicking "Send Transaction", and the "Send" button in the pop-up window.  
   
-  ![transaction_node2](Screenshots/transaction_node2.png)
+  ![transaction_node2](Screenshots/transaction_node2.PNG)
   
   * Click the Check TX Status when the green message pops up, confirm the logout.  
   
-  ![transaction_node2_mycrypto](Screenshots/transaction_node2_mycrypto.png)
+  ![transaction_node2_mycrypto](Screenshots/transaction_node2_mycrypto.PNG)
   
   * You should see the transaction go from Pending to Successful in around the same block time you set in the genesis.  
   
-   ![transaction_node2_mycrypto_1](Screenshots/transaction_node2_mycrypto_1.png)  
+   ![transaction_node2_mycrypto_1](Screenshots/transaction_node2_mycrypto_1.PNG)  
    
-   ![transaction_node2_mycrypto_2](Screenshots/transaction_node2_mycrypto_2.png)
+   ![transaction_node2_mycrypto_2](Screenshots/transaction_node2_mycrypto_2.PNG)
 
   * You can click the Check TX Status button to update the status.
 
