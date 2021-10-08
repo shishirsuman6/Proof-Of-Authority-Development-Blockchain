@@ -133,7 +133,8 @@ You should now see both nodes producing new blocks, congratulations!
 - Now we're going to send a transaction between Node 1 and Node 2 to test out the connection
 
   * Copy the pre-fund address of Node 2 into the "To Address" field, then fill in an arbitrary amount of ETH
-  * Confirm the transaction by clicking "Send Transaction", and the "Send" button in the pop-up window.  
+  * Confirm the transaction by clicking "Send Transaction", and the "Send" button in the pop-up window. 
+  * Following is a snapshot of the Node 1 which is mining wirh -rpc flag 
   
   ![transaction_node2](Screenshots/transaction_node2.PNG)
   
